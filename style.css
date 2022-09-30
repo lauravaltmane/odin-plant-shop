@@ -151,14 +151,10 @@ ul, li {
     text-align: center;
 }
 
-.box > p {
-    color: #1f2937;
-}
-
 .square-image {
     border-radius: 8px;
     width: 200px;
     height: auto;
     max-width: 200px;
-    border: 3px solid #09814A;
+    box-shadow: 2px 4px 20px #929292;
 }
