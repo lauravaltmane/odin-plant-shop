@@ -8,8 +8,16 @@ body {
 
 h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
     margin: 0;
     padding: 0;
 }
@@ -36,6 +44,24 @@ header {
     flex-wrap: nowrap;
     padding: 10px 200px;
 }
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  a:hover {
+    color: #3882F6;
+  }
 
 .logo {
     display: flex;
@@ -89,25 +115,9 @@ header {
 
 }
 
-ul, li {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
 
-  a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-  }
 
-  a:hover {
-    color: #3882F6;
-  }
-
-  .square-image, .wide-image {
+  .square-image {
     width: 200px;
     height: auto;
   }
