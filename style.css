@@ -151,10 +151,37 @@ ul, li {
     text-align: center;
 }
 
+.box > p {
+    color: #7c8293;
+}
+
 .square-image {
     border-radius: 8px;
     width: 200px;
     height: auto;
     max-width: 200px;
-    box-shadow: 2px 4px 20px #929292;
+    box-shadow: 2px 4px 20px #adafb6;
+}
+
+.quote-wrapper {
+    background: #e5e7eb;
+    height: auto;
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 500px;
+}
+
+.author > p {
+    font-weight: 800;
+    text-align: right;
 }
