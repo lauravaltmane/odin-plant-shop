@@ -6,6 +6,25 @@ body {
     background: #f9faf8;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
 header {
     background: #1f2937;
     color: #f9faf8;
@@ -13,8 +32,8 @@ header {
     font-weight: 500;
     flex: 1;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
     padding: 10px 200px;
 }
 
@@ -26,6 +45,48 @@ header {
     text-decoration: underline;
     text-decoration-color: #09814A;
     text-underline-offset: 6px;
+}
+
+.hero-wrapper {
+    background: #1f2937;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 200px;
+    gap: 40px;
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.hero-right {
+    max-width: 45%;
+    max-height: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-text {
+    margin-bottom: 40px;
+}
+
+.primary-button {
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 25px;
+}
+
+.primary-button:hover {
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
+    background: #f9faf8;
+    color: #3882F6;
+
 }
 
 ul, li {
