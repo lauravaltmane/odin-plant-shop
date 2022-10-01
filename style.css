@@ -174,11 +174,14 @@ ul, li {
     padding: 80px 200px;
 }
 
+.quote {
+    max-width: 500px;
+}
+
 .quote > p {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    max-width: 500px;
 }
 
 .author > p {
