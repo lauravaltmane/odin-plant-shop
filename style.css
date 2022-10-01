@@ -31,6 +31,7 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: #e5e7eb;
+    transition: 0.3s;
 }
 
 header {
@@ -57,6 +58,7 @@ ul, li {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    transition: 0.3s;
   }
 
   a:hover {
@@ -106,14 +108,14 @@ ul, li {
 }
 
 .primary-button {
-    border: 1px solid #09814A;
+    border: 2px solid #09814A;
     border-radius: 8px;
     background: #09814A;
     padding: 8px 25px;
 }
 
 .primary-button:hover {
-    border: 1px solid #f9faf8;
+    border: 2px solid #f9faf8;
     border-radius: 8px;
     background: #f9faf8;
     color: #09814A;
@@ -166,7 +168,7 @@ ul, li {
 .quote-wrapper {
     background: #e5e7eb;
     height: auto;
-    flex: 1 1 0px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,16 +177,63 @@ ul, li {
 }
 
 .quote {
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .quote > p {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    text-align: center;
 }
 
 .author > p {
     font-weight: 800;
     text-align: right;
+}
+
+#plant-swap-signup {
+    padding: 80px 200px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #09814A;
+    padding: 50px 120px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 20px #adafb6;
+}
+
+.cta-left p {
+    margin: 0;
+    color:#f9faf8;
+    max-width: 500px;
+}
+
+.cta-left .cta-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.secondary-button {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background: #09814A;
+    padding: 8px 25px;
+}
+
+.secondary-button:hover {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background: #f9faf8;
+    color: #09814A;
 }
