@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 body {
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background: #1f2937;
-    padding-top: 90px;
+    padding-top: 9rem;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 800;
     color: #f9faf8;
     margin: 0;
@@ -16,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 800;
     color: #1f2937;
     margin: 0;
@@ -24,32 +29,45 @@ h2 {
 }
 
 p {
-    font-size: 18px;
-    color: #1f2937;
+    font-size: 1.8rem;
 }
 
 button {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #e5e7eb;
     transition: 0.3s;
 }
 
 header {
-    height: 70px;
+    height: 7rem;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     background: #1f2937;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 500;
     flex: 1;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 10px 200px;
+    padding: 1rem 20rem;
+}
+
+footer {
+    height: 7rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 20rem;
+}
+
+footer p {
+    color: #f9faf8;
 }
 
 ul, li {
@@ -57,12 +75,12 @@ ul, li {
     padding: 0;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
   }
 
   a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #e5e7eb;
     transition: 0.3s;
   }
@@ -75,10 +93,10 @@ ul, li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 0.5rem;
     text-decoration: underline;
     text-decoration-color: #09814A;
-    text-underline-offset: 6px;
+    text-underline-offset: 0.6rem;
 }
 
 .hero-wrapper {
@@ -90,8 +108,8 @@ ul, li {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 100px 200px;
-    gap: 40px;
+    padding: 10rem 20rem;
+    gap: 4rem;
 }
 
 .hero-left {
@@ -102,11 +120,11 @@ ul, li {
     max-width: 45%;
     max-height: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0.8rem;
 }
 
 .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .hero-text > p {
@@ -114,15 +132,15 @@ ul, li {
 }
 
 .primary-button {
-    border: 2px solid #09814A;
-    border-radius: 8px;
+    border: 0.2rem solid #09814A;
+    border-radius: 0.8rem;
     background: #09814A;
-    padding: 8px 25px;
+    padding: 0.8rem 2.5rem;
 }
 
 .primary-button:hover {
-    border: 2px solid #f9faf8;
-    border-radius: 8px;
+    border: 0.2rem solid #f9faf8;
+    border-radius: 0.8rem;
     background: #f9faf8;
     color: #09814A;
 }
@@ -134,8 +152,8 @@ ul, li {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 200px;
-    gap: 40px;
+    padding: 4rem 20rem;
+    gap: 4rem;
 }
 
 .boxes {
@@ -145,7 +163,7 @@ ul, li {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 5rem;
     width: auto;
 }
 
@@ -155,7 +173,7 @@ ul, li {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 200px;
+    width: 20rem;
     height: auto;
     text-align: center;
 }
@@ -165,11 +183,15 @@ ul, li {
 }
 
 .square-image {
-    border-radius: 8px;
-    width: 200px;
+    border-radius: 0.8rem;
+    width: 20rem;
     height: auto;
-    max-width: 200px;
-    box-shadow: 2px 4px 20px #adafb6;
+    max-width: 20rem;
+    box-shadow: 0.2rem 0.4rem 20rem #adafb6;
+}
+
+.green-text {
+    color:#09814A;
 }
 
 .quote-wrapper {
@@ -180,15 +202,15 @@ ul, li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 200px;
+    padding: 8rem 20rem;
 }
 
 .quote {
-    max-width: 700px;
+    max-width: 70rem;
 }
 
 .quote > p {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -201,7 +223,7 @@ ul, li {
 
 #plant-swap-signup {
     background: #f9faf8;
-    padding: 80px 200px;
+    padding: 8rem 20rem;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -215,34 +237,34 @@ ul, li {
     align-items: center;
     flex-wrap: wrap;
     background: #09814A;
-    padding: 50px 120px;
-    border-radius: 8px;
-    box-shadow: 2px 4px 20px #adafb6;
-    gap: 40px;
+    padding: 5rem 12rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.2rem 0.4rem 20rem #adafb6;
+    gap: 4rem;
 }
 
 .cta-left p {
     margin: 0;
     color:#f9faf8;
-    max-width: 500px;
+    max-width: 50rem;
 }
 
 .cta-left .cta-title {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .secondary-button {
-    border: 2px solid #f9faf8;
-    border-radius: 8px;
+    border: 0.2rem solid #f9faf8;
+    border-radius: 0.8rem;
     background: #09814A;
-    padding: 8px 25px;
+    padding: 0.8rem 2.5rem;
 }
 
 .secondary-button:hover {
-    border: 2px solid #f9faf8;
-    border-radius: 8px;
+    border: 0.2rem solid #f9faf8;
+    border-radius: 0.8rem;
     background: #f9faf8;
     color: #09814A;
 }
